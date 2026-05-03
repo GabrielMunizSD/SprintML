@@ -5,13 +5,13 @@
 Case **iFood** — Previsão de Resposta a Campanha de Marketing.
 Turma 1TIAPR-2025 (2º semestre).
 
-## 📋 Sobre o projeto
+## Sobre o projeto
 
 Este projeto evolui a modelagem da Sprint 2 para um nível mais profissional, incluindo otimização de hiperparâmetros com múltiplas abordagens, validação cruzada robusta, comparação entre modelos e interpretabilidade com SHAP.
 
 O objetivo de negócio é identificar quais clientes têm maior probabilidade de responder positivamente a uma campanha de marketing, permitindo direcionar recursos para o público certo e aumentar o ROI das ações.
 
-## 🎯 Mapeamento Sprint 3 → Notebook
+## Mapeamento Sprint 3 → Notebook
 
 | Item da Sprint 3 | Implementação |
 |---|---|
@@ -24,7 +24,7 @@ O objetivo de negócio é identificar quais clientes têm maior probabilidade de
 | 7. Interpretabilidade SHAP | Summary plot + waterfall individual de 2 clientes + análise dos drivers |
 | 8. Visualizações | Tuning curve, comparação Grid vs Random, CV bars, SHAP plots, feature importance |
 
-## 📊 Dataset
+## Dataset
 
 Dataset do iFood com 2.240 clientes e 29 colunas, contendo informações sobre:
 
@@ -35,7 +35,7 @@ Dataset do iFood com 2.240 clientes e 29 colunas, contendo informações sobre:
 
 **Distribuição do target:** ~85% Response=0 vs ~15% Response=1 (classes desbalanceadas).
 
-## 🧠 Estrutura do notebook
+## Estrutura do notebook
 
 O notebook está organizado em quatro partes:
 
@@ -45,7 +45,7 @@ O notebook está organizado em quatro partes:
 - **Parte 3** — Interpretabilidade com SHAP: summary plot, waterfall individual e análise dos drivers
 - **Parte 4** — Comparação entre os métodos de identificação de features importantes (Teste Z vs feature_importances_ vs SHAP)
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **Python 3.10+**
 - **pandas** e **numpy** — manipulação de dados
@@ -54,7 +54,7 @@ O notebook está organizado em quatro partes:
 - **matplotlib** — visualizações
 - **SHAP** — interpretabilidade
 
-## 🚀 Como executar
+## Como executar
 
 ### Opção 1 — Google Colab (recomendado)
 
@@ -83,7 +83,7 @@ Para rodar localmente, substitua a célula de upload do Colab por:
 df_raw = pd.read_csv('data.csv')
 ```
 
-## 📈 Principais resultados
+## Principais resultados
 
 ### Comparação entre abordagens de tuning (Random Forest)
 
